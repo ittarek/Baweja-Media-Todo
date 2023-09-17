@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 
-const UpdateTask = ({handleUpdate,task}) => {
+const UpdateTask = ({task}) => {
 const [updateModal, setUpdateModal] = useState(false)
 
 
